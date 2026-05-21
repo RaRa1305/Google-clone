@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+body {
+  color: #fff;
+  background-color: #22242a;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+.click {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+footer {
+  background-color: #16171a; 
+}
+
+.bottom-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.India {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border-block-end: white solid 1px;
+}
