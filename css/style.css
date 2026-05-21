@@ -6,26 +6,106 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  padding: 10px;
+}
+
+.right-pnel {
+  display: flex;
+  gap: 16px;
+  padding: 0 12px;
 }
 
 body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   background-color: #22242a;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  flex-grow: 1;
 }
 
-h1 {
-  text-align: center;
-  font-size: 5.5rem;
+main p {
+  font-size: 0.8rem;
+}
+
+.main-logo {
+  inline-size: 292px;
+  margin-bottom: 30px;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.search-bar {
+  display: flex;
+  inline-size: 100%;
+  max-width: 580px;
+  padding: 0px 14px;
+  border: 1px solid #5f6368;
+  border-radius: 24px;
+  background-color: #4d5156;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  align-items: center;
+  block-size: 46px;
+  gap: 12px;
+}
+
+.search-bar img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.search-bar input {
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  flex-grow: 1;
 }
 
 .click {
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-block-end: 25px;
+}
+
+.click button {
+  color: white;
+  background-color: #303134;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+
+.click button:hover {
+  border: 1px solid #5f6368;
+}
+
+.lnguge {
+  color: #73a9d3;
+}
+
+.lnguge:hover {
+  text-decoration: underline;
 }
 
 nav a {
@@ -47,13 +127,13 @@ ul {
 }
 
 footer {
-  background-color: #16171a; 
+  background-color: #16171a;
 }
 
 .bottom-nav {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   gap: 15px;
   justify-content: space-between;
 }
@@ -61,6 +141,6 @@ footer {
 .India {
   display: flex;
   margin: 0;
-  padding: 0;
-  border-block-end: white solid 1px;
+  padding: 10px;
+  border-block-end: #323535 solid 1px;
 }
